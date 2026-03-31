@@ -26,7 +26,10 @@ const SingleApp = ({ app }) => {
         </div>
         <div>
           <small className="block text-xs text-gray-400">Rating</small>
-          <span className="font-medium">{app.ratingAvg} ★</span>
+          <div className="flex justify-center gap-2">
+            <h6 className="font-medium">{app.ratingAvg} </h6>
+            <img className='w-1/4' src='/assets/icon-ratings.png' alt="" />
+          </div>
         </div>
       </div>
     </div>

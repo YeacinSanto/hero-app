@@ -1,6 +1,9 @@
 import React from 'react';
 import { Link, NavLink } from 'react-router';
 import "./NavBar.css"
+import { GitBranch, GitCommit } from 'lucide';
+import { GiTacos } from 'react-icons/gi';
+import { GitBranchIcon } from 'lucide-react';
 const NavBar = () => {
     const links = <>
         <NavLink className='m-2' to='/'>Home</NavLink>
@@ -21,7 +24,13 @@ const NavBar = () => {
             {links}
       </ul>
     </div>
-    <Link className="btn btn-ghost button text-xl " to='/'>HERO.IO</Link>
+    
+      <Link to='/' className='flex items-center gap-1'>
+
+        <img className='w-1/10' src="/assets/logo.png" alt="" />
+        <h2 className='font-semibold text-2xl'>HERO.IO</h2>
+      </Link>
+    
   </div>
   <div className="navbar-center hidden lg:flex">
     <ul className="menu menu-horizontal px-1">
@@ -29,7 +38,14 @@ const NavBar = () => {
     </ul>
   </div>
   <div className="navbar-end">
-    <a className="btn">Contribution</a>
+    
+    {/* <GitCommit></GitCommit> */}
+    
+    <Link target='_blank' to='https://github.com/YeacinSanto/hero-app' className='btn'>
+      <GitBranchIcon></GitBranchIcon>
+      <a className="">Contribution</a>
+      
+    </Link>
   </div>
 </div>
     );

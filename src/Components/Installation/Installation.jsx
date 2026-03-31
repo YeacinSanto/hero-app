@@ -1,5 +1,7 @@
 import React, { useEffect, useState } from "react";
 import InstalledAppItems from "./InstalledAppItems";
+import ErrorPage from "../ErrorPage/ErrorPage";
+import AppError from "../AppError/AppError";
 
 const InstallationPage = () => {
     const [installedApps, setInstalledApps] = useState([]);
@@ -18,7 +20,7 @@ const InstallationPage = () => {
     };
 
     if (installedApps.length === 0) {
-        return <p className="text-center mt-10">No apps installed yet.</p>;
+        return <AppError></AppError>;
     }
 
     return (

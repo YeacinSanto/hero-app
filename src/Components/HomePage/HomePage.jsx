@@ -2,6 +2,7 @@ import React from 'react';
 import { useLoaderData } from 'react-router';
 import SingleApp from '../SingleApp/SingleApp';
 
+import hero from "../../assets/hero.png"
 
 const HomePage = () => {
 
@@ -24,7 +25,7 @@ const HomePage = () => {
 
             {/* image */}
             <div>
-                <img className='w-11/12 max-w-lg mx-auto' src='/assets/hero.png' alt="Hero" />
+                <img className='w-11/12 max-w-lg mx-auto' src={hero} alt="Hero" />
             </div>
 
             {/* purple banner */}

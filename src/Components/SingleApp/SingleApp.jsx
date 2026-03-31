@@ -8,7 +8,7 @@ const SingleApp = ({ app }) => {
         {/* App Image */}
         <img
           className="w-2/4 object-contain mb-4"
-          src={app.image}  // <-- Dynamic public path
+          src={app.image}  
           alt={app.title}
         />
 

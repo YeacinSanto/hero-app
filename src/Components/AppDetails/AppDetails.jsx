@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { useLoaderData, useParams } from 'react-router';
-import downloadIcon from '../../../public/assets/icon-downloads.png';
+import downloadIcon from '/assets/icon-downloads.png';
 
 const AppDetails = () => {
     const { id } = useParams();

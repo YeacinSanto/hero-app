@@ -2,7 +2,7 @@ import React from 'react';
 import { useLoaderData } from 'react-router';
 import SingleApp from '../SingleApp/SingleApp';
 
-import hero from "../../../public/assets/hero.png"
+import hero from "/assets/hero.png"
 
 const HomePage = () => {
 

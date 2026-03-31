@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { useLoaderData, useParams } from 'react-router';
+import downloadIcon from '../../../public/assets/icon-downloads.png';
 
 const AppDetails = () => {
     const { id } = useParams();
@@ -82,7 +83,7 @@ const AppDetails = () => {
                     >
                         {clicked ? "Installed" : (
     <span className="flex items-center gap-2">
-      <img src={`/assets/icon-downloads.png`} alt="" className="w-5 h-5" />
+     <img src={downloadIcon} alt="" className="w-5 h-5" />
       {`Install Now (${app.size} MB)`}
     </span>
   )}

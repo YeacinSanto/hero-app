@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { useLoaderData } from 'react-router';
 import SingleApp from '../SingleApp/SingleApp';
+import errorApp from "../../../public/assets/error-404.png"
 
 const Apps = () => {
     const data = useLoaderData();
@@ -60,7 +61,7 @@ const Apps = () => {
             {filteredApps.length === 0 ? (
                 <div className="mt-10 text-center">
                     
-                    <img src="/assets/App-Error.png" alt="" />
+                    <img src={errorApp} alt="" />
                     <h2 className='text-xl font-bold'>Oops, App not found!</h2>
                     <p className="text-gray-400">
                         Try searching with another app name.

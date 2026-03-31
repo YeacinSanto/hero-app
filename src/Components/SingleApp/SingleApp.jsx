@@ -1,8 +1,10 @@
 import React from 'react';
+import { Link } from 'react-router';
 
 const SingleApp = ({ app }) => {
   return (
-    <div className="card bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow p-4 flex flex-col items-center text-center">
+    <Link to={`/app/appDetails/${app.id}`}>
+      <div className="card bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow p-4 flex flex-col items-center text-center">
       
       <img
         className="w-2/4 object-contain mb-4"
@@ -28,6 +30,7 @@ const SingleApp = ({ app }) => {
         </div>
       </div>
     </div>
+    </Link>
   );
 };
 

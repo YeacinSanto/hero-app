@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router';
 
 const Footer = () => {
   return (
@@ -25,16 +26,17 @@ const Footer = () => {
           <a href="/" className="text-gray-300 hover:text-white transition">Home</a>
           <a href="/app" className="text-gray-300 hover:text-white transition">Apps</a>
           <a href="/installation" className="text-gray-300 hover:text-white transition">Installation</a>
-          <a href="#contact" className="text-gray-300 hover:text-white transition">Contact Us</a>
+         
         </div>
 
         {/* Trending Apps */}
         <div className="flex flex-col gap-2">
           <h3 className="font-semibold text-lg">Trending Apps</h3>
-          <a href="/app/1" className="text-gray-300 hover:text-white transition">TaskMaster</a>
-          <a href="/app/2" className="text-gray-300 hover:text-white transition">FitTrack</a>
-          <a href="/app/3" className="text-gray-300 hover:text-white transition">Foodie</a>
-          <a href="/app/4" className="text-gray-300 hover:text-white transition">Budget Buddy</a>
+    
+          <Link to="/app/appDetails/1" className="text-gray-300 hover:text-white transition">TaskMaster</Link>
+          <a href="/app/appDetails/2" className="text-gray-300 hover:text-white transition">FitTrack</a>
+          <a href="/app/appDetails/3" className="text-gray-300 hover:text-white transition">Foodie</a>
+          <a href="/app/appDetails/4" className="text-gray-300 hover:text-white transition">Budget Buddy</a>
         </div>
 
         {/* Contact */}

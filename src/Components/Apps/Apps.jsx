@@ -4,7 +4,7 @@ import SingleApp from '../SingleApp/SingleApp';
 
 const Apps = () => {
     const data = useLoaderData();
-    console.log(data)
+    
     return (
         <div className='flex flex-col items-center'> 
             <div className="flex flex-col items-center">

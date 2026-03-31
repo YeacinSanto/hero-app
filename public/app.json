@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "image": "/public/assets/demo-app (2).webp",
+    "image": "/assets/demo-app (2).webp",
     "title": "TaskMaster",
     "companyName": "HERO.IO",
     "description": "A productivity app to manage your tasks efficiently.",
@@ -19,7 +19,7 @@
   },
   {
     "id": 2,
-    "image": "/public/assets/demo-app (3).webp",
+    "image": "/assets/demo-app (3).webp",
     "title": "FitTrack",
     "companyName": "HERO.IO",
     "description": "Track your workouts and stay healthy every day.",
@@ -37,7 +37,7 @@
   },
   {
     "id": 3,
-    "image": "/public/assets/demo-app (6).webp",
+    "image": "/assets/demo-app (6).webp",
     "title": "Foodie",
     "companyName": "HERO.IO",
     "description": "Discover new recipes and track your meals.",
@@ -55,7 +55,7 @@
   },
   {
     "id": 4,
-    "image": "/public/assets/demo-app (5).webp",
+    "image": "/assets/demo-app (5).webp",
     "title": "Budget Buddy",
     "companyName": "HERO.IO",
     "description": "Keep track of your expenses and savings.",
@@ -73,7 +73,7 @@
   },
   {
     "id": 5,
-    "image": "/public/assets/demo-app (4).webp",
+    "image": "/assets/demo-app (4).webp",
     "title": "MeditateMe",
     "companyName": "HERO.IO",
     "description": "Guided meditation to calm your mind and reduce stress.",
@@ -91,7 +91,7 @@
   },
   {
     "id": 6,
-    "image": "/public/assets/demo-app (3).webp",
+    "image": "/assets/demo-app (3).webp",
     "title": "NoteWise",
     "companyName": "HERO.IO",
     "description": "Take notes quickly and organize them efficiently.",
@@ -109,7 +109,7 @@
   },
   {
     "id": 7,
-    "image": "/public/assets/demo-app (3).webp",
+    "image": "/assets/demo-app (3).webp",
     "title": "TravelGenie",
     "companyName": "HERO.IO",
     "description": "Plan trips and explore destinations around the world.",
@@ -127,7 +127,7 @@
   },
   {
     "id": 8,
-    "image": "/public/assets/demo-app (1).webp",
+    "image": "/assets/demo-app (1).webp",
     "title": "Weatherly",
     "companyName": "HERO.IO",
     "description": "Get accurate weather forecasts for any location.",
@@ -145,7 +145,7 @@
   },
   {
     "id": 9,
-    "image": "/public/assets/demo-app (6).webp",
+    "image": "/assets/demo-app (6).webp",
     "title": "PhotoSnap",
     "companyName": "HERO.IO",
     "description": "Capture, edit, and share your photos effortlessly.",
@@ -163,7 +163,7 @@
   },
   {
     "id": 10,
-    "image": "/public/assets/demo-app (5).webp",
+    "image": "/assets/demo-app (5).webp",
     "title": "LearnLang",
     "companyName": "HERO.IO",
     "description": "Learn new languages with interactive lessons.",
@@ -181,7 +181,7 @@
   },
   {
     "id": 11,
-    "image": "/public/assets/demo-app (4).webp",
+    "image": "/assets/demo-app (4).webp",
     "title": "ShopEase",
     "companyName": "HERO.IO",
     "description": "Smart shopping app with deals and coupons.",
@@ -199,7 +199,7 @@
   },
   {
     "id": 12,
-    "image": "/public/assets/demo-app (3).webp",
+    "image": "/assets/demo-app (3).webp",
     "title": "FitFood",
     "companyName": "HERO.IO",
     "description": "Track calories and macros for a healthier lifestyle.",
@@ -217,7 +217,7 @@
   },
   {
     "id": 13,
-    "image": "/public/assets/demo-app (2).webp",
+    "image": "/assets/demo-app (2).webp",
     "title": "MindBoost",
     "companyName": "HERO.IO",
     "description": "Brain games and exercises to improve focus.",
@@ -235,7 +235,7 @@
   },
   {
     "id": 14,
-    "image": "/public/assets/demo-app (1).webp",
+    "image": "/assets/demo-app (1).webp",
     "title": "QuickScan",
     "companyName": "HERO.IO",
     "description": "Scan documents and convert to PDF quickly.",
@@ -253,7 +253,7 @@
   },
   {
     "id": 15,
-    "image": "/public/assets/demo-app (6).webp",
+    "image": "/assets/demo-app (6).webp",
     "title": "Eventify",
     "companyName": "HERO.IO",
     "description": "Organize and track events effortlessly.",
@@ -271,7 +271,7 @@
   },
   {
     "id": 16,
-    "image": "/public/assets/demo-app (5).webp",
+    "image": "/assets/demo-app (5).webp",
     "title": "SleepWell",
     "companyName": "HERO.IO",
     "description": "Track your sleep patterns for better rest.",
@@ -289,7 +289,7 @@
   },
   {
     "id": 17,
-    "image": "/public/assets/demo-app (4).webp",
+    "image": "/assets/demo-app (4).webp",
     "title": "RecipeMaster",
     "companyName": "HERO.IO",
     "description": "Thousands of recipes for cooking enthusiasts.",
@@ -307,7 +307,7 @@
   },
   {
     "id": 18,
-    "image": "/public/assets/demo-app (3).webp",
+    "image": "/assets/demo-app (3).webp",
     "title": "BudgetPal",
     "companyName": "HERO.IO",
     "description": "Personal finance made simple and effective.",
@@ -325,7 +325,7 @@
   },
   {
     "id": 19,
-    "image": "/public/assets/demo-app (2).webp",
+    "image": "/assets/demo-app (2).webp",
     "title": "WorkoutPro",
     "companyName": "HERO.IO",
     "description": "Advanced workout routines for fitness enthusiasts.",
@@ -343,7 +343,7 @@
   },
   {
     "id": 20,
-    "image": "/public/assets/demo-app (1).webp",
+    "image": "/assets/demo-app (1).webp",
     "title": "LanguageLab",
     "companyName": "HERO.IO",
     "description": "Learn languages interactively and track progress.",

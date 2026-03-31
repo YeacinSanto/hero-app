@@ -4,6 +4,7 @@ import "./NavBar.css"
 import { GitBranch, GitCommit } from 'lucide';
 import { GiTacos } from 'react-icons/gi';
 import { GitBranchIcon } from 'lucide-react';
+import logo from "/assets/logo.png"
 const NavBar = () => {
     const links = <>
         <NavLink className='m-2' to='/'>Home</NavLink>
@@ -27,7 +28,7 @@ const NavBar = () => {
     
       <Link to='/' className='flex items-center gap-1'>
 
-        <img className='w-1/10' src="/assets/logo.png" alt="" />
+        <img className='w-1/10' src={logo} alt="" />
         <h2 className='font-semibold text-2xl'>HERO.IO</h2>
       </Link>
     
@@ -43,7 +44,7 @@ const NavBar = () => {
     
     <Link target='_blank' to='https://github.com/YeacinSanto/hero-app' className='btn'>
       <GitBranchIcon></GitBranchIcon>
-      <a className="">Contribution</a>
+      <h2>Contribute</h2>
       
     </Link>
   </div>

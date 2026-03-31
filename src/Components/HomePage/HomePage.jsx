@@ -6,7 +6,7 @@ import SingleApp from '../SingleApp/SingleApp';
 const HomePage = () => {
 
     const appData = useLoaderData()
-    console.log(appData);
+    
     return (
         <div className='flex flex-col items-center justify-center gap-6 mt-5 text-center'>
             {/* text */}
